@@ -27003,3 +27003,832 @@ Stack Trace:
 #3 {main}
 
 
+2015-12-12 13:38:51 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::getMailer() in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 64]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 13:38:51 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::getMailer()
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'F:\\Logiciel\\wam...', 64)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 13:41:06 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::getMailer() in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 64]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 13:41:06 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::getMailer()
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'F:\\Logiciel\\wam...', 64)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 13:54:01 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(55): Cake\Mailer\Transport\MailTransport->_mail('johei1337@gmail...', 'Welcomejo', 'Bienvenu sur le...', 'From: LeBonCoup...', NULL)
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(1304): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php(67): Cake\Mailer\Email->send('Bienvenu sur le...')
+#3 [internal function]: App\Controller\UsersController->add()
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 13:56:02 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(55): Cake\Mailer\Transport\MailTransport->_mail('johei1337@gmail...', 'Welcomejo', 'Bienvenu sur le...', 'From: LeBonCoup...', NULL)
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(1304): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php(67): Cake\Mailer\Email->send('Bienvenu sur le...')
+#3 [internal function]: App\Controller\UsersController->add()
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 14:00:16 Error: [InvalidArgumentException] Transport config "Mail" is missing.
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(970): Cake\Mailer\Email->_constructTransport('Mail')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(1399): Cake\Mailer\Email->transport('Mail')
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(1272): Cake\Mailer\Email->_applyConfig('default')
+#3 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(352): Cake\Mailer\Email->profile('default')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php(63): Cake\Mailer\Email->__construct('default')
+#5 [internal function]: App\Controller\UsersController->add()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#9 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-12-12 14:01:03 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(55): Cake\Mailer\Transport\MailTransport->_mail('johei1337@gmail...', 'Welcomejo', 'Bienvenu sur le...', 'From: LeBonCoup...', NULL)
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(1304): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php(67): Cake\Mailer\Email->send('Bienvenu sur le...')
+#3 [internal function]: App\Controller\UsersController->add()
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 14:05:48 Error: [InvalidArgumentException] Unknown email configuration "default".
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(1272): Cake\Mailer\Email->_applyConfig('default')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(352): Cake\Mailer\Email->profile('default')
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php(63): Cake\Mailer\Email->__construct('default')
+#3 [internal function]: App\Controller\UsersController->add()
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 14:06:35 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\GeekBazar.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\GeekBazar.png.ctp',
+)
+Request URL: /leboncoup/pages/view/GeekBazar.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/GeekBazar....')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/GeekBazar....', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/GeekBazar....')
+#3 [internal function]: App\Controller\PagesController->display('view', 'GeekBazar.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 14:06:36 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\carte.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\carte.png.ctp',
+)
+Request URL: /leboncoup/pages/view/carte.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/carte.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/carte.png', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/carte.png')
+#3 [internal function]: App\Controller\PagesController->display('view', 'carte.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 14:31:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Validatemail could not be found.
+Exception Attributes: array (
+  'class' => 'Validatemail',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /leboncoup/validatemail/johei1337@gmail.com
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-12 14:31:24 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 114]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 14:31:24 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /leboncoup/users/validatemail/johei1337@gmail.com
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 114)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 14:31:24 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 114]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 14:31:25 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /leboncoup/users/validatemail/johei1337@gmail.com
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 114)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 14:33:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Validatemail could not be found.
+Exception Attributes: array (
+  'class' => 'Validatemail',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /leboncoup/validatemail/johei1337@gmail.com
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-12 14:33:52 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 114]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 14:33:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /leboncoup/users/validatemail/johei1337@gmail.com
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 114)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 14:33:53 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 114]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 14:33:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /leboncoup/users/validatemail/johei1337@gmail.com
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 114)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 14:40:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Validatemail could not be found.
+Exception Attributes: array (
+  'class' => 'Validatemail',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /leboncoup/validatemail/johei1337@gmail.com
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-12 14:40:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Validatemail could not be found.
+Exception Attributes: array (
+  'class' => 'Validatemail',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /leboncoup/validatemail/johei1337@gmail.com
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-12 14:50:26 Error: Fatal Error (1): Call to a member function redicrect() on a non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 37]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 14:50:26 Error: [Cake\Error\FatalErrorException] Call to a member function redicrect() on a non-object
+Request URL: /leboncoup/users/login
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'F:\\Logiciel\\wam...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 14:51:27 Error: Fatal Error (1): Call to a member function redicrect() on a non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 37]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 14:51:27 Error: [Cake\Error\FatalErrorException] Call to a member function redicrect() on a non-object
+Request URL: /leboncoup/users/login
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'F:\\Logiciel\\wam...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 14:51:59 Error: Fatal Error (1): Call to a member function redicrectUrl() on a non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 37]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 14:51:59 Error: [Cake\Error\FatalErrorException] Call to a member function redicrectUrl() on a non-object
+Request URL: /leboncoup/users/login
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'F:\\Logiciel\\wam...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:21:38 Error: Fatal Error (1): Call to a member function link() on a non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 71]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:21:38 Error: [Cake\Error\FatalErrorException] Call to a member function link() on a non-object
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'F:\\Logiciel\\wam...', 71)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:24:49 Error: Fatal Error (4): syntax error, unexpected ')' in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 73]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:24:49 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')'
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 73)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:24:49 Error: Fatal Error (4): syntax error, unexpected ')' in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 73]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:24:50 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')'
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 73)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:24:52 Error: Fatal Error (4): syntax error, unexpected ')' in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 73]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:24:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')'
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 73)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:24:53 Error: Fatal Error (4): syntax error, unexpected ')' in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 73]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:24:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')'
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 73)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:25:24 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\GeekBazar.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\GeekBazar.png.ctp',
+)
+Request URL: /leboncoup/pages/view/GeekBazar.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/GeekBazar....')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/GeekBazar....', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/GeekBazar....')
+#3 [internal function]: App\Controller\PagesController->display('view', 'GeekBazar.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:25:24 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\carte.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\carte.png.ctp',
+)
+Request URL: /leboncoup/pages/view/carte.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/carte.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/carte.png', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/carte.png')
+#3 [internal function]: App\Controller\PagesController->display('view', 'carte.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:26:45 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\users\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\add.ctp',
+)
+Request URL: /leboncoup/pages/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('users/add')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('users/add', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('users/add')
+#3 [internal function]: App\Controller\PagesController->display('users', 'add')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:27:09 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\GeekBazar.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\GeekBazar.png.ctp',
+)
+Request URL: /leboncoup/pages/view/GeekBazar.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/GeekBazar....')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/GeekBazar....', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/GeekBazar....')
+#3 [internal function]: App\Controller\PagesController->display('view', 'GeekBazar.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:27:09 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\carte.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\carte.png.ctp',
+)
+Request URL: /leboncoup/pages/view/carte.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/carte.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/carte.png', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/carte.png')
+#3 [internal function]: App\Controller\PagesController->display('view', 'carte.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:33:12 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\users\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\add.ctp',
+)
+Request URL: /leboncoup/pages/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('users/add')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('users/add', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('users/add')
+#3 [internal function]: App\Controller\PagesController->display('users', 'add')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:33:18 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 71]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:33:19 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 71)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:33:19 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 71]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:33:19 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 71)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:34:10 Error: Fatal Error (4): syntax error, unexpected '"equipe.fr"' (T_CONSTANT_ENCAPSED_STRING) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 71]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:34:10 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '"equipe.fr"' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 71)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:34:11 Error: Fatal Error (4): syntax error, unexpected '"equipe.fr"' (T_CONSTANT_ENCAPSED_STRING) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 71]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:34:11 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '"equipe.fr"' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 71)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:34:42 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\GeekBazar.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\GeekBazar.png.ctp',
+)
+Request URL: /leboncoup/pages/view/GeekBazar.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/GeekBazar....')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/GeekBazar....', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/GeekBazar....')
+#3 [internal function]: App\Controller\PagesController->display('view', 'GeekBazar.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:34:42 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\carte.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\carte.png.ctp',
+)
+Request URL: /leboncoup/pages/view/carte.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/carte.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/carte.png', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/carte.png')
+#3 [internal function]: App\Controller\PagesController->display('view', 'carte.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:36:17 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\users\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\add.ctp',
+)
+Request URL: /leboncoup/pages/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('users/add')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('users/add', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('users/add')
+#3 [internal function]: App\Controller\PagesController->display('users', 'add')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:36:35 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\GeekBazar.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\GeekBazar.png.ctp',
+)
+Request URL: /leboncoup/pages/view/GeekBazar.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/GeekBazar....')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/GeekBazar....', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/GeekBazar....')
+#3 [internal function]: App\Controller\PagesController->display('view', 'GeekBazar.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:36:35 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\carte.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\carte.png.ctp',
+)
+Request URL: /leboncoup/pages/view/carte.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/carte.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/carte.png', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/carte.png')
+#3 [internal function]: App\Controller\PagesController->display('view', 'carte.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:38:27 Error: Fatal Error (4): syntax error, unexpected ''>validation</a>' (T_CONSTANT_ENCAPSED_STRING) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 77]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:38:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''>validation</a>' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 77)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:38:28 Error: Fatal Error (4): syntax error, unexpected ''>validation</a>' (T_CONSTANT_ENCAPSED_STRING) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 77]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:38:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''>validation</a>' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 77)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:38:48 Error: Fatal Error (4): syntax error, unexpected ''">validation</a>' (T_CONSTANT_ENCAPSED_STRING) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 77]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:38:48 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''">validation</a>' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 77)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:38:48 Error: Fatal Error (4): syntax error, unexpected ''">validation</a>' (T_CONSTANT_ENCAPSED_STRING) in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 77]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-12 15:38:49 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''">validation</a>' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'F:\\Logiciel\\wam...', 77)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-12 15:39:24 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\GeekBazar.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\GeekBazar.png.ctp',
+)
+Request URL: /leboncoup/pages/view/GeekBazar.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/GeekBazar....')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/GeekBazar....', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/GeekBazar....')
+#3 [internal function]: App\Controller\PagesController->display('view', 'GeekBazar.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:39:24 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\carte.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\carte.png.ctp',
+)
+Request URL: /leboncoup/pages/view/carte.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/carte.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/carte.png', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/carte.png')
+#3 [internal function]: App\Controller\PagesController->display('view', 'carte.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:39:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Validatemail could not be found.
+Exception Attributes: array (
+  'class' => 'Validatemail',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /leboncoup/validatemail/johei1337@gmail.com
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-12 15:39:47 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\users\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\add.ctp',
+)
+Request URL: /leboncoup/pages/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('users/add')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('users/add', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('users/add')
+#3 [internal function]: App\Controller\PagesController->display('users', 'add')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:39:49 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\carte.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\carte.png.ctp',
+)
+Request URL: /leboncoup/pages/view/carte.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/carte.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/carte.png', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/carte.png')
+#3 [internal function]: App\Controller\PagesController->display('view', 'carte.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:39:50 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\GeekBazar.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\GeekBazar.png.ctp',
+)
+Request URL: /leboncoup/pages/view/GeekBazar.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/GeekBazar....')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/GeekBazar....', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/GeekBazar....')
+#3 [internal function]: App\Controller\PagesController->display('view', 'GeekBazar.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:40:29 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\carte.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\carte.png.ctp',
+)
+Request URL: /leboncoup/pages/view/carte.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/carte.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/carte.png', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/carte.png')
+#3 [internal function]: App\Controller\PagesController->display('view', 'carte.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-12 15:40:29 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\view\GeekBazar.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\view\\GeekBazar.png.ctp',
+)
+Request URL: /leboncoup/pages/view/GeekBazar.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('view/GeekBazar....')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('view/GeekBazar....', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('view/GeekBazar....')
+#3 [internal function]: App\Controller\PagesController->display('view', 'GeekBazar.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+

@@ -166,16 +166,13 @@ return [
      * 'YourTransport.php', where 'Your' is the name of the transport.
      */
     'EmailTransport' => [
-        'default' => [
-            'className' => 'Mail',
-            // The following keys are used in SMTP transports
-            'host' => 'localhost',
-            'port' => 25,
-            'timeout' => 30,
-            'username' => 'user',
-            'password' => 'secret',
-            'client' => null,
-            'tls' => null,
+        'gmail' => [
+            
+    'host' => 'ssl://smtp.gmail.com',
+    'port' => 465,
+    'username' => 'johei1337@gmail.com',
+    'password' => '02lyon02',
+    'className' => 'Smtp'
         ],
     ],
 
@@ -189,9 +186,9 @@ return [
      * for more information.
      */
     'Email' => [
-        'default' => [
-            'transport' => 'default',
-            'from' => 'you@localhost',
+        'gmail' => [
+            'transport' => 'gmail',
+            'from' => 'johei1337@gmail.com',
             //'charset' => 'utf-8',
             //'headerCharset' => 'utf-8',
         ],

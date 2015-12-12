@@ -5584,3 +5584,274 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-12-12 14:42:16 Notice: Notice (8): Undefined variable: user in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Template\Users\validatemail.ctp, line 2]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\validatemail.ctp, line 2
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:42:16 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Template\Users\validatemail.ctp, line 2]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\validatemail.ctp, line 2
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:42:16 Notice: Notice (8): Undefined variable: user in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Template\Users\validatemail.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\validatemail.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:42:16 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Template\Users\validatemail.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\validatemail.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:42:16 Notice: Notice (8): Undefined variable: user in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Template\Users\validatemail.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\validatemail.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:42:16 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Template\Users\validatemail.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\validatemail.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:47:03 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:47:13 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:47:36 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:47:43 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:50:26 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:50:26 Notice: Notice (8): Undefined variable: thi in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 37]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 37
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:51:27 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:51:27 Notice: Notice (8): Undefined variable: thi in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 37]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 37
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:51:59 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:51:59 Notice: Notice (8): Undefined variable: thi in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 37]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 37
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:54:41 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 34
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:57:27 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 34
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 14:59:32 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 15:00:08 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 15:00:45 Notice: Notice (8): Use of undefined constant actif - assumed 'actif' in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 34
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 15:12:31 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 34
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-12 15:12:38 Notice: Notice (8): Trying to get property of non-object in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 34
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
