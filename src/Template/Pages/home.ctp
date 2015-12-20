@@ -20,12 +20,6 @@ use Cake\Network\Exception\NotFoundException;
 use Cake\View\Helper;
 use Cake\Network\Session;
 
-$this->layout = false;
-
-if (!Configure::read('debug')):
-    throw new NotFoundException();
-endif;
-
 $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
 
 ?>
@@ -78,7 +72,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
         <ul>
             <li><a>Accueil</a></li><!--
             --><li><a href="annonces">Annonces</a></li><!--
-            --><li><a href="view/contact.php">Contact</a></li><!--
+            --><li><a href="users/contact">Contact</a></li><!--
             <?php ?>
             --><?php if($this->request->session()->check('Auth.User.username')){
             echo '<li><a href="annonces/add">Créer une Annonce</a></li>';
@@ -94,9 +88,9 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <!------------------>
     
     <main>
-            <img src="view/carte.png" width="100%" height="250px" alt="photo de fond"/>
 
-        
+        <section class="blockContentCust">    
+
         <aside>
 
 
@@ -117,7 +111,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
         INSCRIPTION
 
         -->
-        
+        </section>
     </main>
 
     <!------------------>

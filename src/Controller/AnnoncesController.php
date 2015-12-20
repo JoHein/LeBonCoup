@@ -21,6 +21,7 @@ class AnnoncesController extends AppController
     public function index()
     {
          $this->set('annonces', $this->Annonces->find('all'));
+
     }
 
     public function onlymine()
@@ -71,12 +72,16 @@ class AnnoncesController extends AppController
 
     public function searchcat() {
 
-        $annoncesearch = $this->Annonces->find('all',['conditions' => ['cat =' => $this->request->data['cat']]]);
-           
-        $annoncesearch = $this->Annonces->find('all',['conditions' => ['prix <' => $this->request->data['prix']]]);
+ if ($this->request->is('post')) {
 
-        $annoncesearch = $this->Annonces->find('all',['conditions' => ['titre like' => '%'.$this->request->data['titre'].'%']]);
+                if (($this->request->data['cat'])=='empty'){
+                    $annoncesearch = $this->Annonces->find('all');
+                } 
+                else{   
+                    $annoncesearch = $this->Annonces->find('all',['conditions' => ['cat =' => $this->request->data['cat']]]);
+                }
 
-        $this->set('annoncesearch',$annoncesearch);            
-}
+        $this->set('annoncesearch',$annoncesearch);   
+        }  
+      } 
 }

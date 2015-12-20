@@ -22,7 +22,6 @@ a {
 header {
   background-color: #15848F;
   color: #ffffff;
-  font-size: 30px;
   height: 84px;
   line-height: 64px;
   padding: 16px 0px;
@@ -435,6 +434,7 @@ fieldset {
 
 fieldset legend {
   border-bottom: 2px solid #1798A5;
+  border-top: 2px solid #1798A5;
   width: 100%;
   line-height: 2rem;
 }
@@ -563,3 +563,4 @@ div.message.hidden {
   margin-bottom: 10px;
   border-bottom: 0px;
 }
+
