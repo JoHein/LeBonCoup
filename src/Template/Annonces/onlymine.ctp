@@ -4,6 +4,8 @@
         <th width="25%">Catégorie</th>
         <th width="25%">Titre</th>
         <th width="15%">Image</th>
+                <th></th>
+
     </tr>
 
     <!-- Ici se trouve l'itération sur l'objet query de nos $articles, l'affichage des infos des articles -->
@@ -17,7 +19,7 @@
         <td width="15%">
             <?php $imgAnn = ".".$annonce->image ?>
 
-         <img width="200px" height="130px" src=<?= $imgAnn ?>>
+         <img width="100%" height="100%" src=<?= $imgAnn ?>>
 </td>
 <td width="25%">
          <?= $this->Form->postLink(
