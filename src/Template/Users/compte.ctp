@@ -20,6 +20,11 @@ use Cake\Network\Exception\NotFoundException;
 use Cake\View\Helper;
 use Cake\Network\Session;
 
+$this->layout = false;
+
+if (!Configure::read('debug')):
+    throw new NotFoundException();
+endif;
 
 $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
 
@@ -55,8 +60,8 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <?php
         }else{
             ?>
-            <a href="/leboncoup/users/login"><button>Login</button></a>
-            <a href="/leboncoup/users/add"><button>Register</button></a>
+            <a href="users/login"><button>Login</button></a>
+            <a href="users/add"><button>Register</button></a>
     <?php
         }
     	?>
@@ -68,16 +73,16 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <!-- MENU         -->
     <!------------------>
 
-  
+
     <nav>
         <ul>
             <li><a href="/leboncoup">Accueil</a></li><!--
-            --><li><a href="/leboncoup/annonces">Annonces</a></li><!--
-            --><li><a href="/leboncoup/users/contact">Contact</a></li><!--
+            --><li><a href="view/cpu.php">Processeur</a></li><!--
+            --><li><a href="view/contact.php">Contact</a></li><!--
             <?php ?>
             --><?php if($this->request->session()->check('Auth.User.username')){
             echo '<li><a href="/leboncoup/annonces/add">Créer une Annonce</a></li>';
-            echo '<li><a href="/leboncoup/users/compte">Mon compte</a></li>';
+            echo '<li><a href="http://localhost/leboncoup/users/compte">Mon compte</a></li>';
 
             }
             ?>
@@ -89,13 +94,15 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <!------------------>
     
     <main>
-        <section class="blockContentCust">    
+            <img src="view/carte.png" width="100%" height="250px" alt="photo de fond"/>
 
+        
          <section id="inscription">
 
             <h2>Mettre a jour mes infos <?php echo $this->request->session()->read('Auth.User.username'); ?></h2>
             
             <?= $this->Form->create('User') ?>
+                <legend><?= __('Mise a jour d\'un utilisateur') ?></legend>
                 
                 <?= $this->Form->hidden('id', array('value'=>$this->request->session()->read('Auth.User.id')))?>
                 <?= $this->Form->input('username', array('value' => $this->request->session()->read('Auth.User.username'))) ?>
@@ -112,7 +119,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
         <?= $this->Form->end() ?>
         </section>
 
-        <section id="onlymineCust">
+        <section>
 
              <?php 
 
@@ -125,7 +132,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
 
 
         </section>
-</section>
+
     </main>
 
     <!------------------>

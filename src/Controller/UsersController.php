@@ -48,12 +48,6 @@ class UsersController extends AppController
         $this->set('users', $this->Users->find('all'));
     }
 
-
-    public function contact()
-    {
-       
-    }
-
     public function view($id)
     {
         $user = $this->Users->get($id);

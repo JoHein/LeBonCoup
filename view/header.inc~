@@ -1,0 +1,42 @@
+    <!------------------>
+    <!-- EN TETE      -->
+    <!------------------>
+    
+
+        <?php
+		if(isset($_SESSION["connecte"])) {
+			if($_SESSION["connecté"] == true) {
+				echo '<div id="connection">Bonjour '.$_SESSION["prenom"].
+				'<form method="POST" action=""><input type="submit" value="se déconnecter"/></form><a href="account.php">Mon compte</a> 
+				</div>';	
+			}
+		} else {
+		echo '<div id="connection">
+			<form method="POST" action="../controller/userLogin.php">
+	    		<label for="mail">e-mail</label>
+	    		<input type="text" id="mail" name="e-mail"/>
+	    		<label for="motdepasse">mot de passe</label>
+	    		<input type="text" id="motdepasse" name="password"/>
+	    		<input type="submit" value="se connecter"/>
+			</form></div>';
+		}
+		
+	?>
+	
+	<header>
+		<img id="logo" src="img/GeekBazar.png" alt="logo GeekBazar" title="BazarGeek informatique d'occasion"/>
+	</header>
+
+    <!------------------>
+    <!-- MENU         -->
+    <!------------------>
+    
+	<nav>
+		<ul>
+			<li><a href="../index.php">Accueil</a></li><!--
+			--><li><a href="hard-disk.php">Disques Durs</a></li><!--
+			--><li><a href="cpu.php">Processeur</a></li><!--
+			--><li><a href="gpu.php">Cartes Graphiques</a></li><!--
+			--><li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>

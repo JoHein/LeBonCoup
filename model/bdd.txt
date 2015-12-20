@@ -1,0 +1,58 @@
+
+CREATE TABLE users_(
+	cle VARCHAR(32),
+	nom VARCHAR(20) NOT NULL,
+	prenom VARCHAR(20) NOT NULL,
+	telephone VARCHAR(10),
+	mail VARCHAR(40) NOT NULL,
+	password VARCHAR(40) NOT NULL,
+	premium BOOL,
+	actif BOOL,
+	PRIMARY KEY (mail)
+);
+
+CREATE TABLE annCPU_(
+	reference SMALLINT UNSIGNED AUTO_INCREMENT,
+	titre VARCHAR(20),
+	prix INTEGER,
+	image VARCHAR(50),
+	description TEXT,
+	frequence FLOAT(1),
+	support VARCHAR(30),
+	PRIMARY KEY (reference)	
+);
+
+
+
+
+///////////////////////////////////////////////////////////////////////////
+CREATE TABLE annGPU_(
+	reference SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	reference2 VARCHAR(2) DEFAULT 'DR',
+	titre VARCHAR(20),
+	prix INTEGER,
+	image VARCHAR(50),
+	marque VARCHAR(30),
+	description TEXT,
+	chipset VARCHAR(50),
+	capacite INTEGER,
+	PRIMARY KEY (reference)	
+);
+
+CREATE TABLE annDD_(
+	reference SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	reference2 VARCHAR(2) DEFAULT 'AZ',
+	titre VARCHAR(20),
+	prix INTEGER,
+	image VARCHAR(50),
+	marque VARCHAR(30),
+	description TEXT,
+	capacite SMALLINT UNSIGNED,
+	toursMinutes SMALLINT UNSIGNED,
+	format FLOAT(1),
+	interface VARCHAR(15),
+	PRIMARY KEY (reference)	
+);
+
+
+chemin en dure dans model avec une varialbe params

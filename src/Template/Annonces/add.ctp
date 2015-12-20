@@ -20,6 +20,11 @@ use Cake\Network\Exception\NotFoundException;
 use Cake\View\Helper;
 use Cake\Network\Session;
 
+$this->layout = false;
+
+if (!Configure::read('debug')):
+    throw new NotFoundException();
+endif;
 
 $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
 
@@ -55,8 +60,8 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <?php
         }else{
             ?>
-            <a href="/leboncoup/users/login"><button>Login</button></a>
-            <a href="/leboncoup/users/add"><button>Register</button></a>
+            <a href="users/login"><button>Login</button></a>
+            <a href="users/add"><button>Register</button></a>
     <?php
         }
     	?>
@@ -66,21 +71,20 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <!------------------>
     <!-- MENU         -->
     <!------------------>
-   <nav>
-        <ul>
+    <nav>
+  		<ul>
             <li><a href="/leboncoup">Accueil</a></li><!--
-            --><li><a href="/leboncoup/annonces">Annonces</a></li><!--
-            --><li><a href="/leboncoup/users/contact">Contact</a></li><!--
+            --><li><a href="annonces">Annonces</a></li><!--
+            --><li><a href="view/contact.php">Contact</a></li><!--
             <?php ?>
             --><?php if($this->request->session()->check('Auth.User.username')){
-            echo '<li><a href="/leboncoup/annonces/add">Créer une Annonce</a></li>';
+            echo '<li><a href="annonces/add">Créer une Annonce</a></li>';
             echo '<li><a href="/leboncoup/users/compte">Mon compte</a></li>';
 
             }
             ?>
         </ul>
     </nav>
-<section class="blockContentCust">    
 
 <section class="annonceForm">
 <h1>Ajouter une annonce</h1>
@@ -121,7 +125,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
 
 
 </section>
-</section>
+
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="/resources/demos/external/jquery-mousewheel/jquery.mousewheel.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
@@ -141,11 +145,6 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     });
   });
   </script>
-
-    <footer>
-        <p>Projet IUT Sophia - IDSE - 2015 - Junp Studio</p>
-    </footer>
-</body>
-</html>
-
+</head>
+<body>
  

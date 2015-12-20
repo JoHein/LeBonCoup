@@ -1,6 +1,3 @@
-
-<!DOCTYPE html>
-
 <div class="logForm">
     		<?= $this->Flash->render('auth') ?>
     		<?= $this->Form->create('/Users/login') ?>
