@@ -21,6 +21,7 @@ use Cake\View\Helper;
 use Cake\Network\Session;
 
 
+
 $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
 
 ?>
@@ -51,7 +52,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
      if($this->request->session()->check('Auth.User.username')){
             echo "Bienvenu ".$this->request->session()->read('Auth.User.username')."!";
             ?>
-            <a href="http://localhost/leboncoup/users/logout"><button>Logout</button>
+            <a href="/leboncoup/users/logout"><button>Logout</button>
     <?php
         }else{
             ?>
@@ -59,7 +60,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
             <a href="/leboncoup/users/add"><button>Register</button></a>
     <?php
         }
-    	?>
+        ?>
 </div>
 
     </header>
@@ -68,7 +69,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <!-- MENU         -->
     <!------------------>
 
-  
+
     <nav>
         <ul>
             <li><a href="/leboncoup">Accueil</a></li><!--
@@ -83,58 +84,65 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
             ?>
         </ul>
     </nav>
+    <section class="blockContentCust">    
 
-    <!------------------>
-    <!-- CONTENU      -->
-    <!------------------>
-    
-    <main>
-        <section class="blockContentCust">    
+<h1>Annonces Catégorie</h1>
+<table>
+    <tr>
+        <th>Catégorie</th>
+        <th>Titre</th>
+        <th>Prix</th>
+        <th>Image</th>
+        <th></th>
+    </tr>
 
-         <section id="inscription">
+    <!-- Ici se trouve l'itération sur l'objet query de nos $articles, l'affichage des infos des articles -->
 
-            <h2>Mettre a jour mes infos <?php echo $this->request->session()->read('Auth.User.username'); ?></h2>
-            
-            <?= $this->Form->create('User') ?>
-                
-                <?= $this->Form->hidden('id', array('value'=>$this->request->session()->read('Auth.User.id')))?>
-                <?= $this->Form->input('username', array('label'=>'Utilisateur', 'value' => $this->request->session()->read('Auth.User.username'))) ?>
+<div class="searchCust">
 
-                <?= $this->Form->input('password',array('label'=>'Nouveau password')) ?>
-                
-                <?= $this->Form->input('prenom', array('value' => $this->request->session()->read('Auth.User.prenom'))) ?>
-                
-                <?= $this->Form->input('email', array('value' => $this->request->session()->read('Auth.User.email'))) ?>
-                
-                <?= $this->Form->input('telephone', array('value' => $this->request->session()->read('Auth.User.telephone'))) ?>           
-                              
-               <?= $this->Form->button(__('Mettre a jour')); ?>
-        <?= $this->Form->end() ?>
-        </section>
+   <?=  $this->Form->create('Annonce',['action' => 'searchcat']) ?>
 
-        <section id="onlymineCust">
+    <?= $this->Form->label('Catégorie') ?>
+    <?=  $this->Form->select('cat', array('empty' =>'(choisir une categorie)','Automobile' => 'Automobile', 'Moto' => 'Moto', 'Location Immobilier' => 'Location Immobilier', 'Jeux video'=> 'Jeux video', 'Bricolage' => 'Bricolage', 'Nautisme' => 'Nautisme', 'Jardinnage'=>'Jardinnage', 'Vêtements'=>'Vêtements', 'Sport'=>'Sport')); ?>
 
-             <?php 
+    <?=  $this->Form->button(__("Rechercher"))?>
+    <?=  $this->Form->end()?>
+</div>
 
-        echo $annonces = $this->requestAction('/annonces/onlymine');
+    <?php foreach ($annoncesearch as $annonce): ?>
+    <tr>
+        <td><?= $annonce->cat ?></td>
+        <td>
+            <?= $this->Html->link($annonce->titre, ['action' => 'view', $annonce->idAnn]) ?>
+        </td>
+        <td>
+            <?= $annonce->prix; echo "€";?>
+        </td>
+        <td>
+            <?php $imgAnn = $annonce->image ?>
 
-           
+         <img class="imgListCust" src=./.<?= $imgAnn ?>>
+        </td>
+          <td>
+        <?= $this->Html->link("Voir annonce", ['action' => 'view', $annonce->idAnn]) ?>
+        </td>
+
+        <td width="25%">
+         <?= $this->Form->postLink(
+                'Supprimer',
+                ['action' => 'deleteadmin', $annonce->idAnn],
+                ['confirm' => 'Etes-vous sûr?'])
             ?>
+        </td>
+    </tr>
+    <?php endforeach; ?>
+</table>
 
-
-
-
-        </section>
 </section>
-    </main>
 
-    <!------------------>
-    <!-- PIED DE PAGE -->
-    <!------------------>
-    
-    <footer>
+<footer>
         <p>Projet IUT Sophia - IDSE - 2015 - Junp Studio</p>
-    </footer>
+</footer>
 
 </body>
 </html>

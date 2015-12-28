@@ -43,7 +43,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <!------------------>
     
     <header>
-    <img id="logo" src="view/GeekBazar.png" alt="logo Leboncoup" title="leboncoup informatique d'occasion"/>
+    <img id="logo" src="../img/pipboy.png" alt="logo Leboncoup" title="leboncoup"/>
 
     <div class="logForm">
 
@@ -95,7 +95,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
 	<br>
 
 	<?= $this->Form->label('Catégorie') ?>
-	<?=  $this->Form->select('cat', array('empty' =>'(choisir une categorie)','Automobile' => 'Automobile', 'Jeux video'=> 'Jeux video', 'Bricolage' => 'Bricolage')); ?>
+	<?=  $this->Form->select('cat', array('empty' =>'(choisir une categorie)','Automobile' => 'Automobile', 'Moto' => 'Moto', 'Location Immobilier' => 'Location Immobilier', 'Jeux video'=> 'Jeux video', 'Bricolage' => 'Bricolage', 'Nautisme' => 'Nautisme', 'Jardinnage'=>'Jardinnage', 'Vêtements'=>'Vêtements', 'Sport'=>'Sport')); ?>
 
 			<br>
 

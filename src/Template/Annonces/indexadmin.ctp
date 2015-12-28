@@ -72,33 +72,71 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <nav>
         <ul>
             <li><a href="/leboncoup">Accueil</a></li><!--
-            --><li><a href="/leboncoup/annonces">Annonces</a></li><!--
-            --><li><a href="/leboncoup/users/contact">Contact</a></li><!--
             <?php ?>
-            --><?php if($this->request->session()->check('Auth.User.username')){
-            echo '<li><a href="/leboncoup/annonces/add">Créer une Annonce</a></li>';
-            echo '<li><a href="/leboncoup/users/compte">Mon compte</a></li>';
-
+            --><?php
+            if ($this->request->session()->check('Auth.User.username')=='adminSEF55') {
+               ?>
+                <a href="annonces/indexadmin"><button>Administration</button></a>
+        <?php
             }
-            ?>
+         ?>    
         </ul>
     </nav>
+    <section class="blockContentCust">    
 
-    
-    <!-- GOOGLE MAP -->
+<h1>Administration</h1>
+<table>
+    <tr>
+        <th>Catégorie</th>
+        <th>Titre</th>
+        <th>Prix</th>
+        <th>Image</th>
+        <th></th>
+    </tr>
 
-<section class="blockContentCust">    
- <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="100%" height="300" src="https://maps.google.com/maps?hl=en&q=Polythec 06560 Biot, France&ie=UTF8&t=m&z=13&iwloc=B&output=embed"></iframe>
+<div class="searchCust">
+     <?=  $this->Form->create('Annonce',['action' => 'searchcatadmin']) ?>
 
-    <div id="adresse">
-        <p>LeBonCoup<br/>
-           06560 <br/>
-           Biot<br/></p>
-    </div>
-    
-       <a href="mailto:johei1337@gmail.com">Nous contacter</a>
+    <?= $this->Form->label('Catégorie') ?>
+    <?=  $this->Form->select('cat',array('empty' =>'(choisir une categorie)','Automobile' => 'Automobile', 'Moto' => 'Moto', 'Location Immobilier' => 'Location Immobilier', 'Jeux video'=> 'Jeux video', 'Bricolage' => 'Bricolage', 'Nautisme' => 'Nautisme', 'Jardinnage'=>'Jardinnage', 'Vêtements'=>'Vêtements', 'Sport'=>'Sport')); ?>
+
+    <?=  $this->Form->button(__("Rechercher"))?>
+    <?=  $this->Form->end()?>
+
+</div>
+
+    <?php foreach ($annonces as $annonce): ?>
+    <tr >
+        <td><?= $annonce->cat ?></td>
+        <td>
+            <?= $this->Html->link($annonce->titre, ['action' => 'view', $annonce->idAnn]) ?>
+        </td>
+        <td>
+            <?= $annonce->prix; echo "€";?>
+        </td>
+        <td>
+            <?php $imgAnn = ".".$annonce->image ?>
+
+         <img class="imgListCust" src=<?= $imgAnn ?>>
+        </td>
+
+        <td>
+        <?= $this->Html->link("Voir annonce", ['action' => 'view', $annonce->idAnn]) ?>
+        </td>
+
+        <td width="25%">
+         <?= $this->Form->postLink(
+                'Supprimer',
+                ['action' => 'deleteadmin', $annonce->idAnn],
+                ['confirm' => 'Etes-vous sûr?'])
+            ?>
+        </td>
+
+    </tr>
+    <?php endforeach; ?>
+</table>
+
 </section>
-
 <footer>
         <p>Projet IUT Sophia - IDSE - 2015 - Junp Studio</p>
 </footer>
@@ -106,3 +144,5 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
 
 </body>
 </html>
+
+

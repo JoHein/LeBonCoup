@@ -47,6 +47,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <!------------------>
     
     <header>
+    <img id="logo" src="../img/pipboy.png" alt="logo Leboncoup" title="leboncoup"/>
 
     <div class="logForm">
 

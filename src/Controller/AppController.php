@@ -73,7 +73,7 @@ class AppController extends Controller
         $this->Auth->userModel = 'User';
         $this->Auth->fields = array('username' => 'username', 'password' => 'password');
         $this->Auth->loginAction = array('admin' => false, 'controller' => 'users', 'action' => 'login');
-        $this->Auth->loginRedirect = array('controller' => 'users', 'action' => 'index');
+        $this->Auth->loginRedirect = array('controller' => 'Pages', 'action' => 'display', 'home');
         $this->Auth->allow('logout');
         $this->Auth->allow('validatemail');
 

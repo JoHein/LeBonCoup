@@ -23,7 +23,7 @@ body {
 header {
     position: relative;
     background-color: #0066ff;
-    height: 80px;
+    height: 100px;
 }
 
 .logForm{
@@ -49,10 +49,9 @@ box-shadow: none !important;
 
 #logo {
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: 20px;
-    border: 1px solid white;
-    border-radius: 10px;
+  width: 5%;
 }
 
 /** menu **/
@@ -354,6 +353,7 @@ footer{
 
 .contentTabCust{
     width: 15%;
+   
 }
 
 .imgAnnCust{

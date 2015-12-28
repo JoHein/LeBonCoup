@@ -38308,3 +38308,243 @@ Stack Trace:
 #1 {main}
 
 
+2015-12-28 09:37:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class View could not be found.
+Request URL: /leboncoup/view/GeekBazar.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-28 09:38:50 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/users/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 09:39:11 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/users/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 09:39:25 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/users/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 09:39:28 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/users/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 09:41:40 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:25:36 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:25:39 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:25:42 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:33:57 Error: [Cake\Network\Exception\NotFoundException] Not Found
+Request URL: /leboncoup/pages/img/pipboy.png
+Stack Trace:
+#0 [internal function]: App\Controller\PagesController->display('img', 'pipboy.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-28 10:35:41 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/annonces/69.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:35:41 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/annonces/62.jpg
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:35:41 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:35:41 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/annonces/71.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:35:41 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/annonces/72.jpg
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:35:41 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/annonces/70.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:35:41 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/annonces/74.jpg
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:35:41 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/annonces/75.jpg
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:46:54 Error: [Cake\Network\Exception\NotFoundException] Not Found
+Request URL: /leboncoup/pages/annonces
+Stack Trace:
+#0 [internal function]: App\Controller\PagesController->display('annonces')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-28 10:46:58 Error: [Cake\Network\Exception\NotFoundException] Not Found
+Request URL: /leboncoup/pages/img/pipboy.png
+Stack Trace:
+#0 [internal function]: App\Controller\PagesController->display('img', 'pipboy.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-28 10:48:47 Error: [Cake\Controller\Exception\MissingActionException] Action AnnoncesController::img() could not be found, or is not accessible.
+Request URL: /leboncoup/annonces/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-28 10:49:05 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Logiciel\wamp\wamp\www\leboncoup\src\Template\Annonces\searchcat.ctp, line 112]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Annonces\searchcat.ctp, line 112
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 971
+Cake\View\View::_render() - CORE\src\View\View.php, line 931
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-28 10:58:21 Error: [Cake\View\Exception\MissingTemplateException] Template file "Annonces\searchcatadmin.ctp" is missing.
+Request URL: /leboncoup/annonces/searchcatadmin
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName(NULL)
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-28 10:58:25 Error: [Cake\View\Exception\MissingTemplateException] Template file "Annonces\searchcatadmin.ctp" is missing.
+Request URL: /leboncoup/annonces/searchcatadmin
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName(NULL)
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-28 10:59:52 Error: [Cake\View\Exception\MissingTemplateException] Template file "Annonces\delete.ctp" is missing.
+Request URL: /leboncoup/annonces/delete/74
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName(NULL)
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnnoncesController))
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+

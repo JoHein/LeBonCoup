@@ -24,6 +24,12 @@ class AnnoncesController extends AppController
 
     }
 
+      public function indexadmin()
+    {
+         $this->set('annonces', $this->Annonces->find('all'));
+
+    }
+
     public function onlymine()
     {
          $id=$this->request->session()->read('Auth.User.id');
@@ -70,6 +76,17 @@ class AnnoncesController extends AppController
     }
 }
 
+public function deleteadmin($id)
+{
+    $this->request->allowMethod(['post', 'delete']);
+
+    $annonce = $this->Annonces->get($id);
+    if ($this->Annonces->delete($annonce)) {
+        $this->Flash->success(__("L'annonce avec l'id: {0} a été supprimé.", h($id)));
+        return $this->redirect(['action' => 'indexadmin']);
+    }
+}
+
     public function searchcat() {
 
  if ($this->request->is('post')) {
@@ -84,4 +101,18 @@ class AnnoncesController extends AppController
         $this->set('annoncesearch',$annoncesearch);   
         }  
       } 
+
+      public function searchcatadmin(){
+         if ($this->request->is('post')) {
+
+                if (($this->request->data['cat'])=='empty'){
+                    $annoncesearch = $this->Annonces->find('all');
+                } 
+                else{   
+                    $annoncesearch = $this->Annonces->find('all',['conditions' => ['cat =' => $this->request->data['cat']]]);
+                }
+
+        $this->set('annoncesearch',$annoncesearch);   
+        }  
+      }
 }

@@ -8,7 +8,6 @@
 
     </tr>
 
-    <!-- Ici se trouve l'itération sur l'objet query de nos $articles, l'affichage des infos des articles -->
 
     <?php foreach ($annonces as $annonce): ?>
     <tr>

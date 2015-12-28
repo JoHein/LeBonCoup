@@ -42,7 +42,7 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <!------------------>
     
     <header>
-    <img id="logo" src="view/GeekBazar.png" alt="logo Leboncoup" title="leboncoup informatique d'occasion"/>
+    <img id="logo" src="./img/pipboy.png" alt="logo Leboncoup" title="leboncoup"/>
 
     <div class="logForm">
 
@@ -59,6 +59,13 @@ $cakeDescription = 'Leboncoup Echange d\'object entre gens bien!';
     <?php
         }
     	?>
+    <?php
+    if ($this->request->session()->read('Auth.User.username')==='adminSEF55') {
+       ?>
+        <a href="annonces/indexadmin"><button>Administration</button></a>
+<?php
+    }
+    ?>    
 </div>
 
     </header>
