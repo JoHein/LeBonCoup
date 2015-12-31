@@ -73,17 +73,19 @@ class UsersController extends AppController
                         ->to($user->email)
                         ->subject('Welcome '.$user->prenom)
                         ->send('Bienvenu sur le site LeBonCoup,
-                            </br>
-                            Vous avez bien été enregistré sur le site.php
-                            </br>
+                            <br>
+                            Vous avez bien été enregistré sur le LeBonCoup
+                            <br>
                             Votre nom utilisateur est: '.$user->username .' 
-                            </br>
-                            Cliquez sur ce lien pour valider votre compte <a href="localhost/leboncoup/users/validatemail/'.$user->email.'">validation</a>
-                            </br>
+                            <br>
+                            Cliquez sur ce lien pour valider votre compte <a href="http://comdfran.fr/leboncoup/users/validatemail/'.$user->email.'">validation</a>
+                            <br>
+                            Copier coller dans votre navigateur http://comdfran.fr/leboncoup/users/validatemail/'.$user->email.'
+                            <br>
                             Cordialement,'
  );
 
-                return $this->redirect(['controller'=>'Pages', 'action' => 'home']);
+                return $this->redirect(['controller' => 'Pages', 'action' => 'display', 'home']);
             }
             $this->Flash->error(__("Impossible d'ajouter l'utilisateur."));
         }

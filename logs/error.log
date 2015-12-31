@@ -38548,3 +38548,221 @@ Stack Trace:
 #5 {main}
 
 
+2015-12-30 17:58:20 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(1304): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php(84): Cake\Mailer\Email->send('Bienvenu sur le...')
+#3 [internal function]: App\Controller\UsersController->add()
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-30 18:00:02 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Mailer\Email.php(1304): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\UsersController.php(84): Cake\Mailer\Email->send('Bienvenu sur le...')
+#3 [internal function]: App\Controller\UsersController->add()
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-30 18:01:34 Error: [Cake\Controller\Exception\MissingActionException] Action PagesController::home() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /leboncoup/pages/home
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-30 18:04:56 Error: [Cake\Controller\Exception\MissingActionException] Action PagesController::home() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /leboncoup/pages/home
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-30 18:09:43 Error: [Cake\Controller\Exception\MissingActionException] Action PagesController::home() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /leboncoup/pages/home
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-30 18:11:02 Error: [Cake\Controller\Exception\MissingActionException] Action PagesController::home() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /leboncoup/pages/home
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-30 18:11:46 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\img\pipboy.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\img\\pipboy.png.ctp',
+)
+Request URL: /leboncoup/pages/img/pipboy.png
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('img/pipboy.png')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('img/pipboy.png', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('img/pipboy.png')
+#3 [internal function]: App\Controller\PagesController->display('img', 'pipboy.png')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-30 18:12:37 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\users\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\add.ctp',
+)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('users/add')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('users/add', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('users/add')
+#3 [internal function]: App\Controller\PagesController->display('users', 'add')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-30 18:12:44 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\users\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\add.ctp',
+)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('users/add')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('users/add', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('users/add')
+#3 [internal function]: App\Controller\PagesController->display('users', 'add')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-30 18:12:57 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\annonces.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\annonces.ctp',
+)
+Request URL: /leboncoup/annonces
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('annonces')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('annonces', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('annonces')
+#3 [internal function]: App\Controller\PagesController->display('annonces')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-30 18:19:32 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\annonces.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\annonces.ctp',
+)
+Request URL: /leboncoup/annonces
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('annonces')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('annonces', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('annonces')
+#3 [internal function]: App\Controller\PagesController->display('annonces')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-30 18:20:11 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\users\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\add.ctp',
+)
+Request URL: /leboncoup/users/add
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\View\View.php(576): Cake\View\View->_getViewFileName('users/add')
+#1 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('users/add', NULL)
+#2 F:\Logiciel\wamp\wamp\www\leboncoup\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('users/add')
+#3 [internal function]: App\Controller\PagesController->display('users', 'add')
+#4 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 F:\Logiciel\wamp\wamp\www\leboncoup\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-30 18:22:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Leboncoup could not be found.
+Exception Attributes: array (
+  'class' => 'Leboncoup',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /leboncoup/leboncoup
+Stack Trace:
+#0 F:\Logiciel\wamp\wamp\www\leboncoup\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-30 22:58:26 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /leboncoup/users/img/pipboy.png
+Stack Trace:
+#0 /flex/domain/comdfran.fr/site/www/leboncoup/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /flex/domain/comdfran.fr/site/www/leboncoup/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /flex/domain/comdfran.fr/site/www/leboncoup/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+

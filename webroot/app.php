@@ -9,7 +9,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => false,
+    'debug' => true,
 
     /**
      * Configure basic information about the application.
@@ -168,12 +168,11 @@ return [
     'EmailTransport' => [
         'gmail' => [
             
-    'host' => 'smtp.gmail.com',
-    'port' => 587,
+    'host' => 'ssl://smtp.gmail.com',
+    'port' => 465,
     'username' => 'johei1337@gmail.com',
-    'password' => 'marcelproust',
-    'className' => 'Smtp',
-    'tls'=>true
+    'password' => '02lyon02',
+    'className' => 'Smtp'
         ],
     ],
 

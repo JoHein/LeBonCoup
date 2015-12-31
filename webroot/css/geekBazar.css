@@ -293,7 +293,7 @@ h1{
     margin-right: 3em;
     height: auto !important;
     height: 100%;
-    min-height: 867px;
+    min-height: 718px;
 
 }
 
@@ -308,7 +308,7 @@ footer{
     padding: 1rem;
     background-color: #b3d1ff;
     text-align: center;
-     height:60px; 
+     height:80px; 
 }
 
 .searchCust{
@@ -348,7 +348,6 @@ footer{
 
 .titreTabCust{
     width: 10%;
-    text-align: top;
 }
 
 .contentTabCust{
